@@ -23,7 +23,7 @@ public class PlayerInput : MonoBehaviour
 
     private void Movement()
     {
-        if (Input.GetMouseButtonDown(0) || (Input.GetMouseButton(0)))
+        if (Input.GetMouseButtonDown(0))
         {
             _playerMover.MoveToCursor();
         }
